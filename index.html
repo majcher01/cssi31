@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            background-image: url(prod/assets/img/cool-background.png);
+            color: black;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .dziendobry {
+            color: green;
+        }
+        
+        #btn-continue-page1 {
+            background-color: red;
+            transition: width 3s, height 4s;
+            width: 50px;
+            height: 25px;
+        }
+        
+        #btn-continue-page1:hover {
+            width: 400px;
+            height: 200px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dziendobry">
+        <h1>Dobry dziś ino będziemy mieli prezentacja o css</h1>
+    </div>
+    <a href="#"><button id="btn-continue-page1">Dalej</button></a>
+
+</body>
+
+</html>
