@@ -1,2 +1,3 @@
 https://www.w3schools.com/css/css3_transitions.asp
 https://ichi.pro/pl/przeksztalcenia-i-przejscia-css-przewodnik-dla-poczatkujacych-213104587597094
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition
