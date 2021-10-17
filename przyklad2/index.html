@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład 2</title>
+    <style>
+        body {
+            background: url(../assets/img/cool-background2.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover
+        }
+        .interactive {
+        background-color: #f4f4f4;
+        border: 1px solid #d5d5d5;
+        color: #1b1b1b;
+        padding: 10px;
+        width: 800px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .div1{
+            margin-top: 100px;
+        }
+        .powrot {
+            margin-top: 50px;
+        }
+        .przycisk {
+        width: 150px;
+        font-size: 18px;
+        height: 40px;
+        background-color: whitesmoke;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="center div1">
+        <div class="code-example"><pre class="brush: css notranslate"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
+            <span class="token property">border-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span>
+            <span class="token property">border-width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+            <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+            <span class="token property">background-color</span><span class="token punctuation">:</span> #0000FF<span class="token punctuation">;</span>
+            <span class="token property">transition</span><span class="token punctuation">:</span> width 2s<span class="token punctuation">,</span> height 2s<span class="token punctuation">,</span> background-color 2s<span class="token punctuation">,</span> transform 2s<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token selector">.box:hover</span> <span class="token punctuation">{</span>
+            <span class="token property">background-color</span><span class="token punctuation">:</span> #FFCCCC<span class="token punctuation">;</span>
+            <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+            <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+            <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>180deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        </code></pre><button aria-hidden="false" type="button" class="copy-icon"><span class="visually-hidden">Copy to Clipboard</span></button></div>
+        <br>
+        <iframe class="sample-code-frame" title="Multiple animated properties example sample" id="frame_Multiple_animated_properties_example" width="600" height="300" src="https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions/_sample_.Multiple_animated_properties_example.html" loading="lazy"></iframe>
+    </div>
+    <div class="center powrot">
+        <button class="przycisk"><a href="../">Powrót</a></button>
+    </div>
+</body>
+</html>
