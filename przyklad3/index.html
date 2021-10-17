@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykład 3</title>
+    <style>
+        body {
+            background: url(../assets/img/cool-background2.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover
+        }
+        
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        
+
+        
+        .powrot {
+            margin-top: 50px;
+        }
+        .przycisk {
+        width: 150px;
+        font-size: 18px;
+        height: 40px;
+        background-color: whitesmoke;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <section class="css-editor-container">
+        <header class="output-header">
+          <h4>CSS Demo: transition-timing-function</h4>
+          <button id="reset" class="reset" type="button">Reset</button>
+        </header>
+        <div class="editor-wrapper">
+          <section id="example-choice-list" class="example-choice-list large live" data-property="transition-timing-function">
+    <div class="example-choice">
+    <pre class=" language-css"><code class=" language-css" contenteditable="true" spellcheck="false"><span class="token property">transition-timing-function</span><span class="token punctuation">:</span> linear<span class="token punctuation">;</span></code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true" aria-label="Copy to clipboard">
+        <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+    </div>
+    
+    <div class="example-choice">
+    <pre class=" language-css"><code class=" language-css"><span class="token property">transition-timing-function</span><span class="token punctuation">:</span> ease-in<span class="token punctuation">;</span></code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true" aria-label="Copy to clipboard">
+        <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+    </div>
+    
+    <div class="example-choice selected">
+    <pre class=" language-css"><code class=" language-css" contenteditable="true" spellcheck="false"><span class="token property">transition-timing-function</span><span class="token punctuation">:</span> <span class="token function">steps</span><span class="token punctuation">(</span>6<span class="token punctuation">,</span> end<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+    <button type="button" class="copy" aria-hidden="false" aria-label="Copy to clipboard">
+        <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+    </div>
+    
+    <div class="example-choice">
+    <pre class=" language-css"><code class=" language-css" contenteditable="true" spellcheck="false"><span class="token property">transition-timing-function</span><span class="token punctuation">:</span> <span class="token function">cubic-bezier</span><span class="token punctuation">(</span>.29<span class="token punctuation">,</span> 1.01<span class="token punctuation">,</span> 1<span class="token punctuation">,</span> -0.68<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+    <button type="button" class="copy hidden" aria-hidden="true" aria-label="Copy to clipboard">
+        <span class="visually-hidden">Copy to Clipboard</span>
+    </button>
+    </div>
+    
+    </section>
+    
+    <div id="output" class="output large">
+        <section id="default-example">
+            <div id="example-element" style="transition-timing-function: steps(6);">Hover to see<br>the transition.</div>
+        </section>
+    </div>
+    
+        </div>
+      </section>
+
+
+    <div class="center powrot">
+        <button class="przycisk"><a href="../">Powrót</a></button>
+    </div>
+</body>
+</html>
