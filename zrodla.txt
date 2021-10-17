@@ -1,3 +1,6 @@
 https://www.w3schools.com/css/css3_transitions.asp
 https://ichi.pro/pl/przeksztalcenia-i-przejscia-css-przewodnik-dla-poczatkujacych-213104587597094
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+https://webkod.pl/kurs-css/wartosci/funkcje/translate-3d
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()
